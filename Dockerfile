@@ -8,6 +8,6 @@ RUN npm install -g pnpm
 
 RUN pnpm install
 
-EXPOSE 7000
+EXPOSE 8000
 
 CMD ["pnpm", "run", "start"]
